@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   pigeon_data = {} #establishing a hash that
   data.each do |types, value| #we go through the types of pigeons 
   value.each do |differences, name|# then we go through the differences between the pigeons 
-    names.each do |name| #iterate through the name & key
+    name.each do |name| #iterate through the name & key
       if !pigeon_data[name] #create a pigeon value if there isn't any present  
         pigeon_data[name] = {} #we add it to the hash 
       end 
