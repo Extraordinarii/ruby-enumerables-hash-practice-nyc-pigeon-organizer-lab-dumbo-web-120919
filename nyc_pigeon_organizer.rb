@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
     end 
   end 
 end
-pigeon_data
+return pigeon_data
   #will hold our pigeon information 
   # write your code here!
 end
